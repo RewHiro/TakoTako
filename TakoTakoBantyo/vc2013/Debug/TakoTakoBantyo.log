@@ -1,0 +1,75 @@
+﻿2016/03/24 18:07:33 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\vantan\Desktop\Solution\TakoTakoBantyo\vc2013\TakoTakoBantyo.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /I..\..\cinder_0.8.6_ps14\cinder_0.8.6\include /I..\..\cinder_0.8.6_ps14\cinder_0.8.6\boost /I..\..\cinder_0.8.6_ps14\cinder_0.8.6\include\freetype2 /I..\src /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D NOMINMAX /D _WIN32_WINNT=0x0502 /D PRODUCT_NAME=TakoTakoBantyo /D DEBUG /D _ITERATOR_DEBUG_LEVEL=0 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\scene\SceneFactory.cpp ..\src\scene\Title.cpp
+         SceneFactory.cpp
+         Title.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\vantan\Desktop\Solution\TakoTakoBantyo\vc2013\Debug\TakoTakoBantyo.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\cinder_0.8.6_ps14\cinder_0.8.6\lib\msw\x86 "cinder-v120_d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\vantan\Desktop\Solution\TakoTakoBantyo\vc2013\Debug\TakoTakoBantyo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\vantan\Desktop\Solution\TakoTakoBantyo\vc2013\Debug\TakoTakoBantyo.lib" /MACHINE:X86 Debug\Resources.res
+         Debug\BoxCollider.obj
+         Debug\CameraController.obj
+         Debug\Collider.obj
+         Debug\Component.obj
+         Debug\ComponentTask.obj
+         Debug\PlayerDrainer.obj
+         Debug\PlayerJumper.obj
+         Debug\PlayerMeleeAttacker.obj
+         Debug\PlayerMover.obj
+         Debug\PlayerShot.obj
+         Debug\PlayerSunction.obj
+         Debug\SphereCollider.obj
+         Debug\Transform.obj
+         Debug\Background.obj
+         Debug\Bubble.obj
+         Debug\BubbleManager.obj
+         Debug\Camera.obj
+         Debug\CameraManager.obj
+         Debug\CrabArm.obj
+         Debug\CrabArmJoint.obj
+         Debug\CrabArmManager.obj
+         Debug\CrabFoot.obj
+         Debug\CrabFootJoint.obj
+         Debug\CrabFootManager.obj
+         Debug\DamageEffect.obj
+         Debug\DamageEffectManager.obj
+         Debug\GameObject.obj
+         Debug\GameObjectTask.obj
+         Debug\Ground.obj
+         Debug\GroundManager.obj
+         Debug\Item.obj
+         Debug\ItemManager.obj
+         Debug\Player.obj
+         Debug\PlayerArmJoint.obj
+         Debug\PlayerArmManager.obj
+         Debug\PlayerBullet.obj
+         Debug\PlayerDrainAttack.obj
+         Debug\PlayerFoot.obj
+         Debug\PlayerFootJoint.obj
+         Debug\PlayerFootManager.obj
+         Debug\PlayerLeftArm.obj
+         Debug\PlayerRightArm.obj
+         Debug\Rock.obj
+         Debug\RockManager.obj
+         Debug\SeaWeed.obj
+         Debug\SeaWeedManager.obj
+         Debug\UIBullet.obj
+         Debug\UIHitPoint.obj
+         Debug\UIHitPointManager.obj
+         Debug\UIManager.obj
+         Debug\UIResultBlind.obj
+         Debug\UIResultString.obj
+         Debug\UtilityGamePad.obj
+         Debug\Object.obj
+         Debug\ResourceManager.obj
+         Debug\Scene.obj
+         Debug\SceneFactory.obj
+         Debug\SceneManager.obj
+         Debug\Stage.obj
+         Debug\Title.obj
+         Debug\TakoTakoBantyoApp.obj
+         TakoTakoBantyo.vcxproj -> C:\Users\vantan\Desktop\Solution\TakoTakoBantyo\vc2013\Debug\TakoTakoBantyo.exe
+     1>プロジェクト "C:\Users\vantan\Desktop\Solution\TakoTakoBantyo\vc2013\TakoTakoBantyo.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:11.44

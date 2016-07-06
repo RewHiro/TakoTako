@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E704809B-8C76-4319-BE9F-E7186D3A4779}</ProjectGuid>
+    <RootNamespace>TakoTakoBantyo</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\..\cinder_0.8.6_ps14\cinder_0.8.6\include;..\..\cinder_0.8.6_ps14\cinder_0.8.6\boost;..\..\cinder_0.8.6_ps14\cinder_0.8.6\include\freetype2;..\src</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;_WIN32_WINNT=0x0502;PRODUCT_NAME=$(ProjectName);DEBUG;_ITERATOR_DEBUG_LEVEL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>"..\..\cinder_0.8.6_ps14\cinder_0.8.6\include";..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>cinder-$(PlatformToolset)_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>"..\..\cinder_0.8.6_ps14\cinder_0.8.6\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreSpecificDefaultLibraries />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include;..\..\cinder_0.8.6_ps14\cinder_0.8.6\include;..\..\cinder_0.8.6_ps14\cinder_0.8.6\boost;..\..\cinder_0.8.6_ps14\cinder_0.8.6\include\freetype2;..\src</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_WIN32_WINNT=0x0502;PRODUCT_NAME=$(ProjectName);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>true</StringPooling>
+    </ClCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>"..\..\cinder_0.8.6_ps14\cinder_0.8.6\include";..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>cinder-$(PlatformToolset).lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>"..\..\cinder_0.8.6_ps14\cinder_0.8.6\lib\msw\$(PlatformTarget)"</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding />
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\component\BoxCollider.cpp" />
+    <ClCompile Include="..\src\component\CameraController.cpp" />
+    <ClCompile Include="..\src\component\Collider.cpp" />
+    <ClCompile Include="..\src\component\Component.cpp" />
+    <ClCompile Include="..\src\component\ComponentTask.cpp" />
+    <ClCompile Include="..\src\component\PlayerDrainer.cpp" />
+    <ClCompile Include="..\src\component\PlayerJumper.cpp" />
+    <ClCompile Include="..\src\component\PlayerMeleeAttacker.cpp" />
+    <ClCompile Include="..\src\component\PlayerMover.cpp" />
+    <ClCompile Include="..\src\component\PlayerShot.cpp" />
+    <ClCompile Include="..\src\component\PlayerSunction.cpp" />
+    <ClCompile Include="..\src\component\SphereCollider.cpp" />
+    <ClCompile Include="..\src\component\Transform.cpp" />
+    <ClCompile Include="..\src\gameobject\Background.cpp" />
+    <ClCompile Include="..\src\gameobject\Bubble.cpp" />
+    <ClCompile Include="..\src\gameobject\BubbleManager.cpp" />
+    <ClCompile Include="..\src\gameobject\Camera.cpp" />
+    <ClCompile Include="..\src\gameobject\CameraManager.cpp" />
+    <ClCompile Include="..\src\gameobject\CrabArm.cpp" />
+    <ClCompile Include="..\src\gameobject\CrabArmJoint.cpp" />
+    <ClCompile Include="..\src\gameobject\CrabArmManager.cpp" />
+    <ClCompile Include="..\src\gameobject\CrabFoot.cpp" />
+    <ClCompile Include="..\src\gameobject\CrabFootJoint.cpp" />
+    <ClCompile Include="..\src\gameobject\CrabFootManager.cpp" />
+    <ClCompile Include="..\src\gameobject\DamageEffect.cpp" />
+    <ClCompile Include="..\src\gameobject\DamageEffectManager.cpp" />
+    <ClCompile Include="..\src\gameobject\GameObject.cpp" />
+    <ClCompile Include="..\src\gameobject\GameObjectTask.cpp" />
+    <ClCompile Include="..\src\gameobject\Ground.cpp" />
+    <ClCompile Include="..\src\gameobject\GroundManager.cpp" />
+    <ClCompile Include="..\src\gameobject\Item.cpp" />
+    <ClCompile Include="..\src\gameobject\ItemManager.cpp" />
+    <ClCompile Include="..\src\gameobject\Player.cpp" />
+    <ClCompile Include="..\src\gameobject\PlayerArmJoint.cpp" />
+    <ClCompile Include="..\src\gameobject\PlayerArmManager.cpp" />
+    <ClCompile Include="..\src\gameobject\PlayerBullet.cpp" />
+    <ClCompile Include="..\src\gameobject\PlayerDrainAttack.cpp" />
+    <ClCompile Include="..\src\gameobject\PlayerFoot.cpp" />
+    <ClCompile Include="..\src\gameobject\PlayerFootJoint.cpp" />
+    <ClCompile Include="..\src\gameobject\PlayerFootManager.cpp" />
+    <ClCompile Include="..\src\gameobject\PlayerLeftArm.cpp" />
+    <ClCompile Include="..\src\gameobject\PlayerRightArm.cpp" />
+    <ClCompile Include="..\src\gameobject\Rock.cpp" />
+    <ClCompile Include="..\src\gameobject\RockManager.cpp" />
+    <ClCompile Include="..\src\gameobject\SeaWeed.cpp" />
+    <ClCompile Include="..\src\gameobject\SeaWeedManager.cpp" />
+    <ClCompile Include="..\src\gameobject\UIBullet.cpp" />
+    <ClCompile Include="..\src\gameobject\UIHitPoint.cpp" />
+    <ClCompile Include="..\src\gameobject\UIHitPointManager.cpp" />
+    <ClCompile Include="..\src\gameobject\UIManager.cpp" />
+    <ClCompile Include="..\src\gameobject\UIResultBlind.cpp" />
+    <ClCompile Include="..\src\gameobject\UIResultString.cpp" />
+    <ClCompile Include="..\src\input\UtilityGamePad.cpp" />
+    <ClCompile Include="..\src\Object.cpp" />
+    <ClCompile Include="..\src\ResourceManager.cpp" />
+    <ClCompile Include="..\src\scene\Scene.cpp" />
+    <ClCompile Include="..\src\scene\SceneFactory.cpp" />
+    <ClCompile Include="..\src\scene\SceneManager.cpp" />
+    <ClCompile Include="..\src\scene\Stage.cpp" />
+    <ClCompile Include="..\src\scene\Title.cpp" />
+    <ClCompile Include="..\src\TakoTakoBantyoApp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h" />
+    <ClInclude Include="..\src\BulletPyhsics.h" />
+    <ClInclude Include="..\src\component\BoxCollider.h" />
+    <ClInclude Include="..\src\component\CameraController.h" />
+    <ClInclude Include="..\src\component\Collider.h" />
+    <ClInclude Include="..\src\component\Component.h" />
+    <ClInclude Include="..\src\component\ComponentTask.h" />
+    <ClInclude Include="..\src\component\PlayerDrainer.h" />
+    <ClInclude Include="..\src\component\PlayerJumper.h" />
+    <ClInclude Include="..\src\component\PlayerMeleeAttacker.h" />
+    <ClInclude Include="..\src\component\PlayerMover.h" />
+    <ClInclude Include="..\src\component\PlayerShot.h" />
+    <ClInclude Include="..\src\component\PlayerSunction.h" />
+    <ClInclude Include="..\src\component\SphereCollider.h" />
+    <ClInclude Include="..\src\component\Transform.h" />
+    <ClInclude Include="..\src\gameobject\Background.h" />
+    <ClInclude Include="..\src\gameobject\Bubble.h" />
+    <ClInclude Include="..\src\gameobject\BubbleManager.h" />
+    <ClInclude Include="..\src\gameobject\Camera.h" />
+    <ClInclude Include="..\src\gameobject\CameraManager.h" />
+    <ClInclude Include="..\src\gameobject\CrabArm.h" />
+    <ClInclude Include="..\src\gameobject\CrabArmJoint.h" />
+    <ClInclude Include="..\src\gameobject\CrabArmManager.h" />
+    <ClInclude Include="..\src\gameobject\CrabFoot.h" />
+    <ClInclude Include="..\src\gameobject\CrabFootJoint.h" />
+    <ClInclude Include="..\src\gameobject\CrabFootManager.h" />
+    <ClInclude Include="..\src\gameobject\DamageEffect.h" />
+    <ClInclude Include="..\src\gameobject\DamageEffectManager.h" />
+    <ClInclude Include="..\src\gameobject\GameObject.h" />
+    <ClInclude Include="..\src\gameobject\GameObjectTask.h" />
+    <ClInclude Include="..\src\gameobject\Ground.h" />
+    <ClInclude Include="..\src\gameobject\GroundManager.h" />
+    <ClInclude Include="..\src\gameobject\Item.h" />
+    <ClInclude Include="..\src\gameobject\ItemManager.h" />
+    <ClInclude Include="..\src\gameobject\ObjectFactory.h" />
+    <ClInclude Include="..\src\gameobject\Player.h" />
+    <ClInclude Include="..\src\gameobject\PlayerArmJoint.h" />
+    <ClInclude Include="..\src\gameobject\PlayerArmManager.h" />
+    <ClInclude Include="..\src\gameobject\PlayerBullet.h" />
+    <ClInclude Include="..\src\gameobject\PlayerDrainAttack.h" />
+    <ClInclude Include="..\src\gameobject\PlayerFoot.h" />
+    <ClInclude Include="..\src\gameobject\PlayerFootJoint.h" />
+    <ClInclude Include="..\src\gameobject\PlayerFootManager.h" />
+    <ClInclude Include="..\src\gameobject\PlayerLeftArm.h" />
+    <ClInclude Include="..\src\gameobject\PlayerRightArm.h" />
+    <ClInclude Include="..\src\gameobject\Rock.h" />
+    <ClInclude Include="..\src\gameobject\RockManager.h" />
+    <ClInclude Include="..\src\gameobject\SeaWeed.h" />
+    <ClInclude Include="..\src\gameobject\SeaWeedManager.h" />
+    <ClInclude Include="..\src\gameobject\UIBullet.h" />
+    <ClInclude Include="..\src\gameobject\UIHitPoint.h" />
+    <ClInclude Include="..\src\gameobject\UIHitPointManager.h" />
+    <ClInclude Include="..\src\gameobject\UIManager.h" />
+    <ClInclude Include="..\src\gameobject\UIResultBlind.h" />
+    <ClInclude Include="..\src\gameobject\UIResultString.h" />
+    <ClInclude Include="..\src\input\UtilityGamePad.h" />
+    <ClInclude Include="..\src\Object.h" />
+    <ClInclude Include="..\src\ResourceManager.h" />
+    <ClInclude Include="..\src\scene\Scene.h" />
+    <ClInclude Include="..\src\scene\SceneFactory.h" />
+    <ClInclude Include="..\src\scene\SceneManager.h" />
+    <ClInclude Include="..\src\scene\Stage.h" />
+    <ClInclude Include="..\src\scene\Title.h" />
+    <ClInclude Include="..\src\Using.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

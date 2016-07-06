@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\scene">
+      <UniqueIdentifier>{35079b55-859c-4d86-b651-61a2de010119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene">
+      <UniqueIdentifier>{9f05c7c2-86f8-461e-acdb-bfe8fc16c09a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\input">
+      <UniqueIdentifier>{3f5c1559-e2a9-4db4-8f62-878bb7c5bea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\input">
+      <UniqueIdentifier>{841d0709-472b-40b5-a2de-fe7e0ebd7e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gameobject">
+      <UniqueIdentifier>{3614e6ff-4c7f-48c8-9a7e-ba44b97c8317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gameobject">
+      <UniqueIdentifier>{55bbe821-e23c-46a4-8ac6-a2f45551c272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gameobject\camera">
+      <UniqueIdentifier>{f9af5c9b-f0bc-48a2-b06b-2f98c7ca0633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gameobject\player">
+      <UniqueIdentifier>{13b5ba6b-e597-430e-a515-c67484f627fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gameobject\camera">
+      <UniqueIdentifier>{dcc01e06-e3a7-4493-a895-8fc38e774776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\component">
+      <UniqueIdentifier>{0ce3d524-2cbf-432b-ad83-4d5c1afad799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\component">
+      <UniqueIdentifier>{24bed008-4548-483b-9b98-2dcd8d820a45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\component\transform">
+      <UniqueIdentifier>{98327fc4-687d-4f80-89dd-036d930f2019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\component\transform">
+      <UniqueIdentifier>{49e7cdfe-b9f7-4a9e-b7c3-07e012837443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gameobject\player">
+      <UniqueIdentifier>{50b58eff-a75e-47c0-8bb2-a333269b16fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gameobject\background">
+      <UniqueIdentifier>{817fc3ea-09f8-4dae-9299-5104be13eaab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gameobject\background">
+      <UniqueIdentifier>{b8baa973-c463-4fa9-9e16-6e3ca41c29ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gameobject\ground">
+      <UniqueIdentifier>{9add13de-5be4-4356-9d34-dfc42f3ee665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gameobject\ground">
+      <UniqueIdentifier>{af69d313-cf97-4b00-9c3f-67e344758da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\component\player">
+      <UniqueIdentifier>{83ba3799-8639-4567-9720-61f20ea158e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\component\player">
+      <UniqueIdentifier>{d4df6054-37eb-4b27-be94-59b507c2c8ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\component\camera">
+      <UniqueIdentifier>{5d8fbee7-c3e1-4c3d-b05e-bf8c7cc00d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\component\camera">
+      <UniqueIdentifier>{349b072c-fde0-4474-9ee7-e3eab9e424c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gameobject\player\foot">
+      <UniqueIdentifier>{d25c8f9e-8117-4e78-9fb6-ed9c26202d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gameobject\player\foot">
+      <UniqueIdentifier>{2678ca60-5436-42bd-98e4-c120bab12045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gameobject\player\arm">
+      <UniqueIdentifier>{456a0e0b-2d17-4c9f-a8e6-2728e0ab8121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gameobject\player\arm">
+      <UniqueIdentifier>{4fa0c13b-652a-4833-95d0-086a12e0f936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gameobject\player\bullet">
+      <UniqueIdentifier>{64c99f12-e540-4429-a761-2c8de4e1acda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gameobject\player\bullet">
+      <UniqueIdentifier>{9e6f1070-349e-4810-9098-0030c78221db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gameobject\UI">
+      <UniqueIdentifier>{985d816f-b5f5-4571-a4a6-7fcbd4a72fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gameobject\UI">
+      <UniqueIdentifier>{38da0612-cc36-4959-b74e-11485b8bec10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gameobject\rock">
+      <UniqueIdentifier>{fc594724-0c6c-4620-a243-c81c675bd892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gameobject\seaweed">
+      <UniqueIdentifier>{be3c06f7-e246-4f66-8e2a-86d3ba809cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gameobject\rock">
+      <UniqueIdentifier>{54b361b8-8d7d-459b-b0e3-02af63f97657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gameobject\seaweed">
+      <UniqueIdentifier>{af434ce5-7d7b-451f-a8bb-973650484fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\component\collider">
+      <UniqueIdentifier>{03278019-c4fd-463b-9a49-7eda861ea4d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\component\collider">
+      <UniqueIdentifier>{f353c15c-3ead-463a-9215-8ee1b38394bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\TakoTakoBantyoApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TakoTakoBantyoApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scene\Title.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scene\SceneManager.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\input\UtilityGamePad.cpp">
+      <Filter>Source Files\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scene\SceneFactory.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scene\Stage.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scene\Scene.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\GameObject.cpp">
+      <Filter>Source Files\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\GameObjectTask.cpp">
+      <Filter>Source Files\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\Camera.cpp">
+      <Filter>Source Files\gameobject\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\component\Component.cpp">
+      <Filter>Source Files\component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\component\ComponentTask.cpp">
+      <Filter>Source Files\component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\component\Transform.cpp">
+      <Filter>Source Files\component\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\Player.cpp">
+      <Filter>Source Files\gameobject\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\CameraManager.cpp">
+      <Filter>Source Files\gameobject\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\Background.cpp">
+      <Filter>Source Files\gameobject\background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\Ground.cpp">
+      <Filter>Source Files\gameobject\ground</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\component\PlayerMover.cpp">
+      <Filter>Source Files\component\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\component\CameraController.cpp">
+      <Filter>Source Files\component\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\PlayerFoot.cpp">
+      <Filter>Source Files\gameobject\player\foot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\PlayerFootManager.cpp">
+      <Filter>Source Files\gameobject\player\foot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\PlayerArmManager.cpp">
+      <Filter>Source Files\gameobject\player\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\PlayerLeftArm.cpp">
+      <Filter>Source Files\gameobject\player\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\PlayerRightArm.cpp">
+      <Filter>Source Files\gameobject\player\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\PlayerBullet.cpp">
+      <Filter>Source Files\gameobject\player\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\component\PlayerMeleeAttacker.cpp">
+      <Filter>Source Files\component\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\component\PlayerShot.cpp">
+      <Filter>Source Files\component\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\component\PlayerJumper.cpp">
+      <Filter>Source Files\component\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\component\PlayerSunction.cpp">
+      <Filter>Source Files\component\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\UIManager.cpp">
+      <Filter>Source Files\gameobject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\UIHitPointManager.cpp">
+      <Filter>Source Files\gameobject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\UIHitPoint.cpp">
+      <Filter>Source Files\gameobject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\UIBullet.cpp">
+      <Filter>Source Files\gameobject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\GroundManager.cpp">
+      <Filter>Source Files\gameobject\ground</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\RockManager.cpp">
+      <Filter>Source Files\gameobject\rock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\SeaWeed.cpp">
+      <Filter>Source Files\gameobject\seaweed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\SeaWeedManager.cpp">
+      <Filter>Source Files\gameobject\seaweed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\Rock.cpp">
+      <Filter>Source Files\gameobject\rock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\component\Collider.cpp">
+      <Filter>Source Files\component\collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\component\BoxCollider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\component\SphereCollider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\PlayerArmJoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\PlayerFootJoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\component\PlayerDrainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\PlayerDrainAttack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\UIResultBlind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\UIResultString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\Item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\CrabFoot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\CrabFootJoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\CrabFootManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\CrabArm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\CrabArmJoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\CrabArmManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\DamageEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\DamageEffectManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\Bubble.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\BubbleManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameobject\ItemManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\Scene.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\Title.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\SceneManager.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\input\UtilityGamePad.h">
+      <Filter>Header Files\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\SceneFactory.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\scene\Stage.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\GameObject.h">
+      <Filter>Header Files\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\GameObjectTask.h">
+      <Filter>Header Files\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\Player.h">
+      <Filter>Header Files\gameobject\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\Camera.h">
+      <Filter>Header Files\gameobject\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\component\Component.h">
+      <Filter>Header Files\component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\component\ComponentTask.h">
+      <Filter>Header Files\component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\component\Transform.h">
+      <Filter>Header Files\component\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Using.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\ObjectFactory.h">
+      <Filter>Header Files\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\CameraManager.h">
+      <Filter>Header Files\gameobject\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\Background.h">
+      <Filter>Header Files\gameobject\background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\Ground.h">
+      <Filter>Header Files\gameobject\ground</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\component\PlayerMover.h">
+      <Filter>Header Files\component\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\component\CameraController.h">
+      <Filter>Header Files\component\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\PlayerFoot.h">
+      <Filter>Header Files\gameobject\player\foot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\PlayerFootManager.h">
+      <Filter>Header Files\gameobject\player\foot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\PlayerArmManager.h">
+      <Filter>Header Files\gameobject\player\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\PlayerLeftArm.h">
+      <Filter>Header Files\gameobject\player\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\PlayerRightArm.h">
+      <Filter>Header Files\gameobject\player\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\PlayerBullet.h">
+      <Filter>Header Files\gameobject\player\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\component\PlayerMeleeAttacker.h">
+      <Filter>Header Files\component\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\component\PlayerShot.h">
+      <Filter>Header Files\component\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\component\PlayerJumper.h">
+      <Filter>Header Files\component\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\component\PlayerSunction.h">
+      <Filter>Header Files\component\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\UIManager.h">
+      <Filter>Header Files\gameobject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\UIHitPoint.h">
+      <Filter>Header Files\gameobject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\UIHitPointManager.h">
+      <Filter>Header Files\gameobject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\UIBullet.h">
+      <Filter>Header Files\gameobject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\GroundManager.h">
+      <Filter>Header Files\gameobject\ground</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\SeaWeed.h">
+      <Filter>Header Files\gameobject\seaweed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\SeaWeedManager.h">
+      <Filter>Header Files\gameobject\seaweed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\RockManager.h">
+      <Filter>Header Files\gameobject\rock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\Rock.h">
+      <Filter>Header Files\gameobject\rock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\component\Collider.h">
+      <Filter>Header Files\component\collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\component\BoxCollider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\component\SphereCollider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BulletPyhsics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\PlayerArmJoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\PlayerFootJoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\component\PlayerDrainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\PlayerDrainAttack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\UIResultBlind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\UIResultString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\Item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\CrabFoot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\CrabFootJoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\CrabFootManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\CrabArm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\CrabArmJoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\CrabArmManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\DamageEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\DamageEffectManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\Bubble.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\BubbleManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameobject\ItemManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

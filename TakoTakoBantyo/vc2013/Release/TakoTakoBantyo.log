@@ -1,0 +1,78 @@
+﻿2016/03/24 20:08:14 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\vantan\Desktop\Solution\TakoTakoBantyo\vc2013\TakoTakoBantyo.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /I..\..\cinder_0.8.6_ps14\cinder_0.8.6\include /I..\..\cinder_0.8.6_ps14\cinder_0.8.6\boost /I..\..\cinder_0.8.6_ps14\cinder_0.8.6\include\freetype2 /I..\src /Zi /nologo /W3 /WX- /MP /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D NOMINMAX /D _WIN32_WINNT=0x0502 /D PRODUCT_NAME=TakoTakoBantyo /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\scene\Title.cpp
+         Title.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\vantan\Desktop\Solution\TakoTakoBantyo\vc2013\Release\TakoTakoBantyo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\cinder_0.8.6_ps14\cinder_0.8.6\lib\msw\x86 "cinder-v120.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\vantan\Desktop\Solution\TakoTakoBantyo\vc2013\Release\TakoTakoBantyo.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\vantan\Desktop\Solution\TakoTakoBantyo\vc2013\Release\TakoTakoBantyo.lib" /MACHINE:X86 /SAFESEH Release\Resources.res
+         Release\BoxCollider.obj
+         Release\CameraController.obj
+         Release\Collider.obj
+         Release\Component.obj
+         Release\ComponentTask.obj
+         Release\PlayerDrainer.obj
+         Release\PlayerJumper.obj
+         Release\PlayerMeleeAttacker.obj
+         Release\PlayerMover.obj
+         Release\PlayerShot.obj
+         Release\PlayerSunction.obj
+         Release\SphereCollider.obj
+         Release\Transform.obj
+         Release\Background.obj
+         Release\Bubble.obj
+         Release\BubbleManager.obj
+         Release\Camera.obj
+         Release\CameraManager.obj
+         Release\CrabArm.obj
+         Release\CrabArmJoint.obj
+         Release\CrabArmManager.obj
+         Release\CrabFoot.obj
+         Release\CrabFootJoint.obj
+         Release\CrabFootManager.obj
+         Release\DamageEffect.obj
+         Release\DamageEffectManager.obj
+         Release\GameObject.obj
+         Release\GameObjectTask.obj
+         Release\Ground.obj
+         Release\GroundManager.obj
+         Release\Item.obj
+         Release\ItemManager.obj
+         Release\Player.obj
+         Release\PlayerArmJoint.obj
+         Release\PlayerArmManager.obj
+         Release\PlayerBullet.obj
+         Release\PlayerDrainAttack.obj
+         Release\PlayerFoot.obj
+         Release\PlayerFootJoint.obj
+         Release\PlayerFootManager.obj
+         Release\PlayerLeftArm.obj
+         Release\PlayerRightArm.obj
+         Release\Rock.obj
+         Release\RockManager.obj
+         Release\SeaWeed.obj
+         Release\SeaWeedManager.obj
+         Release\UIBullet.obj
+         Release\UIHitPoint.obj
+         Release\UIHitPointManager.obj
+         Release\UIManager.obj
+         Release\UIResultBlind.obj
+         Release\UIResultString.obj
+         Release\UtilityGamePad.obj
+         Release\Object.obj
+         Release\ResourceManager.obj
+         Release\Scene.obj
+         Release\SceneFactory.obj
+         Release\SceneManager.obj
+         Release\Stage.obj
+         Release\Title.obj
+         Release\TakoTakoBantyoApp.obj
+         コード生成しています。
+         コード生成が終了しました。
+     1>Gamepad.lib(Gamepad_private.obj) : warning LNK4099: PDB 'vc110.pdb' が 'Gamepad.lib(Gamepad_private.obj)' で、または 'C:\Users\vantan\Desktop\Solution\TakoTakoBantyo\vc2013\Release\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>Gamepad.lib(Gamepad_windows.obj) : warning LNK4099: PDB 'vc110.pdb' が 'Gamepad.lib(Gamepad_windows.obj)' で、または 'C:\Users\vantan\Desktop\Solution\TakoTakoBantyo\vc2013\Release\vc110.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+         TakoTakoBantyo.vcxproj -> C:\Users\vantan\Desktop\Solution\TakoTakoBantyo\vc2013\Release\TakoTakoBantyo.exe
+     1>プロジェクト "C:\Users\vantan\Desktop\Solution\TakoTakoBantyo\vc2013\TakoTakoBantyo.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:01:52.70
