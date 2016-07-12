@@ -1,4 +1,4 @@
-# TakoTako
+# タコタコバンチョウ
 
 ## ビルドの仕方
 [Cinder(0.8.6)](http://libcinder.org)をダウンロード。  
